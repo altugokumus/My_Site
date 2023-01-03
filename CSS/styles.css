@@ -1,0 +1,158 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-color:white;
+   color: #717171;
+   font-family: 'Roboto Mono';
+}
+
+.nav{
+    background-color: rgb(227, 227, 227);
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.nav-logo{
+    width: 80px;
+    margin: 10px 0 0 300px;
+    border-radius: 50% 0 50% 50%;
+}
+
+.nav-items{
+    list-style: none;
+    float: right;
+    margin: 40px 300px 0 0;
+}
+
+.nav-items li{
+    display: inline;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+.nav-items li:hover{
+    cursor: pointer;
+    background-color: #5cbbf1;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+.menu{
+    text-decoration: none;
+    color: #717171;
+}
+
+.home{
+    height: 400px;
+    text-align: center;
+    border-bottom: dotted 1px rgb(209, 205, 205);
+}
+
+.me{
+    font-size: 4rem;
+    margin: 300px 0 0 0;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+.section-one{
+    margin: 100px 0 0 300px;
+    position: relative;
+    
+} 
+
+.img1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+}
+
+.paragraph1{
+    margin: 20px 0 0 200px;
+    width: 400px;
+}
+
+.heading1{
+    margin: 60px 0 0 200px;
+    padding-top: 10px;
+}
+
+.section-two{
+    margin: 100px 0 0 410px;
+    position: relative;
+    
+}
+
+.img2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 300px;
+}
+
+.experience{
+    height: 750px;
+    text-align: center;
+    border-top:  dotted 1px rgb(209, 205, 205);
+    border-bottom:  dotted 1px rgb(209, 205, 205);
+    margin-top:150px;
+}
+
+.experience p{
+    width: 500px;
+    margin: 0 auto 0 auto;
+}
+
+.contact{
+    height: 200px;
+    text-align: center;
+    border-bottom:  dotted 1px rgb(209, 205, 205);
+    margin: top 20px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.btn{
+    border-radius: 10px;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    background-color: #5cbbf1;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background-color: #28678b;
+    cursor: pointer;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #5cbbf1;
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(39, 50, 50);
+}
+
+.footer p{
+    color: rgb(180, 215, 255);
+    margin: 15px 0 0 0;
+}
+
+.footer img{
+    width: 30px;
+}
